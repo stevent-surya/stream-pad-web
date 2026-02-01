@@ -1,0 +1,89 @@
+{
+    "ui_settings": {
+        "scene_width_percent": 75,
+        "grid_columns": 3
+	},
+	"obs_settings": {
+        "host": "your_pc_ip",
+        "port": 4455,
+        "password": "your_password"
+    },
+    "audio_sources": [
+        { 
+            "name": "Discord", 
+            "icon_type": "img", 
+            "icon": "discord.jpg" 
+        },
+        { 
+            "name": "Music", 
+            "icon_type": "img", 
+            "icon": "music.png" 
+        },
+        { 
+            "name": "osu!", 
+            "icon_type": "img", 
+            "icon": "osu.jpg" 
+        },
+        { 
+            "name": "Game", 
+            "icon_type": "fa", 
+            "icon": "fa-gamepad" 
+        },
+        { 
+            "name": "Mic/Aux", 
+            "icon_type": "fa", 
+            "icon": "fa-microphone" 
+        }
+    ],
+    "buttons": [
+        {
+            "label": "START",
+            "scene_obs": "Start Stream",
+            "icon_type": "fa",
+            "icon": "fa-signal",
+            "style": "normal"
+        },
+        {
+            "label": "BRB",
+            "scene_obs": "Be Right Back",
+            "icon_type": "fa",
+            "icon": "fa-mug-hot",
+            "style": "normal"
+        },
+        {
+            "label": "GAME",
+            "scene_obs": "Game Bebas",
+            "icon_type": "fa",
+            "icon": "fa-gamepad",
+            "style": "normal"
+        },
+        {
+            "label": "osu!",
+            "scene_obs": "osu! Gaming",
+            "icon_type": "img", 
+            "icon": "osu.jpg",
+            "style": "pink"
+        },
+        {
+            "label": "CLIP",
+            "scene_obs": "CLIP",
+            "icon_type": "fa",
+            "icon": "fa-clapperboard",
+            "style": "purple"
+        },
+        {
+            "label": "FULL",
+            "scene_obs": "FULL SCREEN!!!!",
+            "icon_type": "fa",
+            "icon": "fa-expand",
+            "style": "yellow"
+        },
+        {
+            "label": "END STREAM",
+            "scene_obs": "End Stream",
+            "icon_type": "fa",
+            "icon": "fa-power-off",
+            "style": "red_wide"
+        }
+    ]
+}
